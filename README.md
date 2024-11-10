@@ -3,6 +3,9 @@ Moodle availability plugin which lets users restrict resources and activities wi
 
 This plugin depends upon the data calculated by block_dedication. So make sure to install block_dedication plugin( https://moodle.org/plugins/block_dedication) and its data is calculated for some courses and users.
 
+# # Screenshots
+<img width="381" alt="Screenshot 2024-11-10 231043" src="https://github.com/user-attachments/assets/a182c909-3a74-4868-ab06-8cd5aafba831">
+
 ![image](https://github.com/user-attachments/assets/623b5ebc-0e1d-4b7c-9c5c-4b20a56bbf6e)
 
 ![image](https://github.com/user-attachments/assets/5241fccc-2916-42f2-987e-93e5bec808e9)
