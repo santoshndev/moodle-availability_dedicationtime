@@ -24,7 +24,6 @@
 namespace availability_dedicationtime;
 
 use advanced_testcase;
-use availability_dedicationtime\condition;
 use core_availability\{tree, mock_info, info_module, info_section};
 use stdClass;
 
@@ -71,13 +70,32 @@ final class condition_test extends advanced_testcase {
      */
     public function test_get_description(): void {
         $info = new \core_availability\mock_info();
+        // Test minutes format.
         $structure = (object)['type' => 'dedicationtime', 'dedicationtime' => '5', 'unit' => 'minutes'];
         $cond = new condition($structure);
         $description = $cond->get_description(true, false, $info);
-        $this->assertMatchesRegularExpression('~<strong>0</strong> hours and <strong>5</strong> minutes~', $description);
+        $this->assertMatchesRegularExpression('~<strong>5</strong> minutes~', $description);
 
         $description = $cond->get_description(true, true, $info);
-        $this->assertMatchesRegularExpression('~<strong>0</strong> hours and <strong>5</strong> minutes~', $description);
+        $this->assertMatchesRegularExpression('~<strong>5</strong> minutes~', $description);
+
+        // Test hours format.
+        $structure = (object)['type' => 'dedicationtime', 'dedicationtime' => '8', 'unit' => 'hours'];
+        $cond = new condition($structure);
+        $description = $cond->get_description(true, false, $info);
+        $this->assertMatchesRegularExpression('~<strong>8</strong> hours~', $description);
+
+        $description = $cond->get_description(true, true, $info);
+        $this->assertMatchesRegularExpression('~<strong>8</strong> hours~', $description);
+
+        // Test hours and minutes format.
+        $structure = (object)['type' => 'dedicationtime', 'dedicationtime' => '8.5', 'unit' => 'hours'];
+        $cond = new condition($structure);
+        $description = $cond->get_description(true, false, $info);
+        $this->assertMatchesRegularExpression('~<strong>8</strong> hours and <strong>30</strong> minutes~', $description);
+
+        $description = $cond->get_description(true, true, $info);
+        $this->assertMatchesRegularExpression('~<strong>8</strong> hours and <strong>30</strong> minutes~', $description);
     }
     /**
      * Tests whether activity is available or not

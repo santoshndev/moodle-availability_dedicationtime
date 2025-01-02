@@ -22,13 +22,14 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+$string['and'] = ' और ';
 $string['description'] = 'विशिष्ट पाठ्यक्रम समर्पण समय तक पहुंच को प्रतिबंधित करें।';
 $string['error_invalidnumber'] = 'कृपया एक मान्य मान दर्ज करें।';
-$string['hours'] = 'घंटे';
-$string['minutes'] = 'मिनट';
+$string['hours'] = ' घंटे';
+$string['minutes'] = ' मिनट';
 $string['pluginname'] = 'समर्पण समय के अनुसार प्रतिबंध';
 $string['privacy:metadata'] = 'समर्पण समय के अनुसार प्रतिबंध प्लगइन कोई व्यक्तिगत डेटा संग्रहीत नहीं करता है।';
-$string['requires_finish'] = 'आपको पाठ्यक्रम में कम से कम <strong>{$a->hours}</strong> घंटे और <strong>{$a->minutes}</strong> मिनट बिताने होंगे।';
-$string['requires_notfinish'] = 'आपको पाठ्यक्रम में <strong>{$a->hours}</strong> घंटे और <strong>{$a->minutes}</strong> मिनट नहीं बिताने चाहिए।';
+$string['requires_finish'] = 'आपको पाठ्यक्रम में कम से कम {$a} बिताने होंगे।';
+$string['requires_notfinish'] = 'आपको पाठ्यक्रम में {$a} नहीं बिताने चाहिए।';
 $string['title'] = 'समर्पण समय';
 $string['unit'] = 'समर्पण समय इकाई';

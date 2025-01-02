@@ -22,13 +22,14 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+$string['and'] = ' and ';
 $string['description'] = 'Restrict access to a specific course dedication time.';
 $string['error_invalidnumber'] = 'Please enter a valid value.';
-$string['hours'] = 'hours';
-$string['minutes'] = 'minutes';
+$string['hours'] = ' hours';
+$string['minutes'] = ' minutes';
 $string['pluginname'] = 'Restriction by dedication time';
 $string['privacy:metadata'] = 'The Restriction by dedication time plugin does not store any personal data.';
-$string['requires_finish'] = 'you must spent at least <strong>{$a->hours}</strong> hours and <strong>{$a->minutes}</strong> minutes time in the course';
-$string['requires_notfinish'] = 'you must not spent <strong>{$a->hours}</strong> hours and <strong>{$a->minutes}</strong> minutes time in the course';
+$string['requires_finish'] = 'you have spent at least {$a} time in the course';
+$string['requires_notfinish'] = 'you have not spent {$a} time in the course';
 $string['title'] = 'Dedication time';
 $string['unit'] = 'Dedication time unit';
