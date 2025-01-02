@@ -7,6 +7,9 @@ This plugin depends upon the data calculated by block_dedication. So make sure t
 1. restrict the activities and resources with dedication time (time spent in the course).
 2. restiction can be applied in either in hours or minutes.
 
+# Release 4.1.1
+1. Added availability message improvements as suggested by Dan Marsden
+
 # Installation
 1. Download the latest block_dedication plugin from git repository (https://github.com/catalyst/moodle-block_dedication) or moodle plugin directory (https://moodle.org/plugins/block_dedication) and unzip the contents into the /blocks/dedication directory or upload it from the install plugin admin interface.
 2. Download the latest availability_dedication plugin from git repository or moodle plugin directory and unzip the contents into the /availability/condition/ directory. Or upload it from the install plugin admin interface.
