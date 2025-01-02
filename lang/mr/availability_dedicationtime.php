@@ -22,13 +22,14 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+$string['and'] = ' आणि ';
 $string['description'] = 'विशिष्ट कोर्स समर्पित वेळेसाठी प्रवेश मर्यादित करा.';
 $string['error_invalidnumber'] = 'कृपया एक वैध मूल्य प्रविष्ट करा.';
-$string['hours'] = 'तास';
-$string['minutes'] = 'मिनिटे';
+$string['hours'] = ' तास';
+$string['minutes'] = ' मिनिटे';
 $string['pluginname'] = 'समर्पित वेळेने मर्यादा';
 $string['privacy:metadata'] = 'समर्पित वेळेने मर्यादा प्लगइन कोणतीही वैयक्तिक माहिती संग्रहित करत नाही.';
-$string['requires_finish'] = 'तुम्हाला कोर्समध्ये किमान <strong>{$a->hours}</strong> तास आणि <strong>{$a->minutes}</strong> मिनिटे वेळ समर्पित करणे आवश्यक आहे.';
-$string['requires_notfinish'] = 'तुम्हाला कोर्समध्ये <strong>{$a->hours}</strong> तास आणि <strong>{$a->minutes}</strong> मिनिटे वेळ समर्पित करणे आवश्यक नाही.';
+$string['requires_finish'] = 'तुम्हाला कोर्समध्ये किमान {$a} वेळ समर्पित करणे आवश्यक आहे.';
+$string['requires_notfinish'] = 'तुम्हाला कोर्समध्ये {$a} वेळ समर्पित करणे आवश्यक नाही.';
 $string['title'] = 'समर्पित वेळ';
 $string['unit'] = 'समर्पण वेळ एकक';

@@ -116,11 +116,23 @@ class condition extends \core_availability\condition {
     public function get_description($full, $not, info $info) {
         $dseconds = $this->get_dedication_time();
         $dtime = $this->seconds_to_hours_minutes($dseconds);
-        if ($not) {
-            return get_string('requires_notfinish', 'availability_dedicationtime', $dtime);
+
+        $minutesstr = '<strong>' . $dtime['minutes'] . '</strong>' . get_string('minutes', 'availability_dedicationtime');
+        $hoursstr = '<strong>' . $dtime['hours'] . '</strong>' . get_string('hours', 'availability_dedicationtime');
+        $andstr = get_string('and', 'availability_dedicationtime');
+        $msg =  $hoursstr . $andstr . $minutesstr;
+
+        if ($dtime['hours'] == 0) {
+            $msg = $minutesstr;
+        } elseif ($dtime['minutes'] == 0) {
+            $msg = $hoursstr;
         }
 
-        return get_string('requires_finish', 'availability_dedicationtime', $dtime);
+        if ($not) {
+            return get_string('requires_notfinish', 'availability_dedicationtime', $msg);
+        }
+
+        return get_string('requires_finish', 'availability_dedicationtime', $msg);
     }
 
     /**
