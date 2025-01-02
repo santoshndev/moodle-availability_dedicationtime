@@ -120,11 +120,11 @@ class condition extends \core_availability\condition {
         $minutesstr = '<strong>' . $dtime['minutes'] . '</strong>' . get_string('minutes', 'availability_dedicationtime');
         $hoursstr = '<strong>' . $dtime['hours'] . '</strong>' . get_string('hours', 'availability_dedicationtime');
         $andstr = get_string('and', 'availability_dedicationtime');
-        $msg =  $hoursstr . $andstr . $minutesstr;
+        $msg = $hoursstr . $andstr . $minutesstr;
 
         if ($dtime['hours'] == 0) {
             $msg = $minutesstr;
-        } elseif ($dtime['minutes'] == 0) {
+        } else if ($dtime['minutes'] == 0) {
             $msg = $hoursstr;
         }
 
