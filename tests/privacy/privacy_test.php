@@ -18,7 +18,7 @@
  * Privacy tests for dedicationtime availability.
  *
  * @package   availability_dedicationtime
- * @copyright   2024 Santosh N. <santosh.nag2217@gmail.com>
+ * @copyright   2025 Santosh N. <santosh.nag2217@gmail.com>
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -31,7 +31,7 @@ use core_privacy\local\metadata\collection;
  * Privacy tests for dedicationtime availability.
  *
  * @package   availability_dedicationtime
- * @copyright   2024 Santosh N. <santosh.nag2217@gmail.com>
+ * @copyright   2025 Santosh N. <santosh.nag2217@gmail.com>
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @coversDefaultClass \availability_dedicationtime\privacy\provider
  */

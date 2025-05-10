@@ -18,7 +18,7 @@
  * Privacy Subsystem implementation for availability_dedicationtime.
  *
  * @package    availability_dedicationtime
- * @copyright  2024 Santosh N. <santosh.nag2217@gmail.com>
+ * @copyright  2025 Santosh N. <santosh.nag2217@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -27,7 +27,7 @@ namespace availability_dedicationtime\privacy;
 /**
  * Privacy Subsystem for availability_dedicationtime implementing null_provider.
  *
- * @copyright  2024 Santosh N. <santosh.nag2217@gmail.com>
+ * @copyright  2025 Santosh N. <santosh.nag2217@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class provider implements \core_privacy\local\metadata\null_provider {

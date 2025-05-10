@@ -18,7 +18,7 @@
  * Restrict access by dedication time
  *
  * @package     availability_dedicationtime
- * @copyright   2024 Santosh N. <santosh.nag2217@gmail.com>
+ * @copyright   2025 Santosh N. <santosh.nag2217@gmail.com>
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 namespace availability_dedicationtime;
@@ -26,7 +26,7 @@ namespace availability_dedicationtime;
  * Restrict access by dedication time
  *
  * @package     availability_dedicationtime
- * @copyright   2024 Santosh N. <santosh.nag2217@gmail.com>
+ * @copyright   2025 Santosh N. <santosh.nag2217@gmail.com>
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class frontend extends \core_availability\frontend {

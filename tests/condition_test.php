@@ -18,7 +18,7 @@
  * Unit test class to test condition class
  *
  * @package     availability_dedicationtime
- * @copyright   2024 Santosh N. <santosh.nag2217@gmail.com>
+ * @copyright   2025 Santosh N. <santosh.nag2217@gmail.com>
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 namespace availability_dedicationtime;
@@ -31,7 +31,7 @@ use stdClass;
  * Unit test class to test condition class
  *
  * @package     availability_dedicationtime
- * @copyright   2024 Santosh N. <santosh.nag2217@gmail.com>
+ * @copyright   2025 Santosh N. <santosh.nag2217@gmail.com>
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @coversDefaultClass \availability_dedicationtime\condition
  */

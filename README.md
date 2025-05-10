@@ -4,8 +4,11 @@ Moodle availability plugin which lets users restrict resources and activities wi
 This plugin depends upon the data calculated by block_dedication. So make sure to install block_dedication plugin( https://moodle.org/plugins/block_dedication) and its data is calculated for some courses and users.
 
 # Features
-1. restrict the activities and resources with dedication time (time spent in the course).
-2. restiction can be applied in either in hours or minutes.
+1. Restrict the activities and resources with dedication time (time spent in the course).
+2. Restriction can be applied in either in hours or minutes.
+
+# Release 4.1.2
+1. Minor improvements added
 
 # Release 4.1.1
 1. Added availability message improvements as suggested by Dan Marsden
@@ -22,7 +25,7 @@ This plugin depends upon the data calculated by block_dedication. So make sure t
 5. Login a student account and check the activity restriction on course home page.
 
 # Screenshots
-<img width="381" alt="Screenshot 2024-11-10 231043" src="https://github.com/user-attachments/assets/a182c909-3a74-4868-ab06-8cd5aafba831">
+<img width="381" alt="Screenshot 2025-11-10 231043" src="https://github.com/user-attachments/assets/a182c909-3a74-4868-ab06-8cd5aafba831">
 
 ![image](https://github.com/user-attachments/assets/623b5ebc-0e1d-4b7c-9c5c-4b20a56bbf6e)
 
