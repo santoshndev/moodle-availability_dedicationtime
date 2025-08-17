@@ -18,13 +18,13 @@
  * Version info.
  *
  * @package availability_dedicationtime
- * @copyright 2024 Santosh N. <santosh.nag2217@gmail.com>
+ * @copyright 2025 Santosh N. <santosh.nag2217@gmail.com>
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2024083001;
+$plugin->version = 2025051000;
 $plugin->requires = 2022112800;
 $plugin->component = 'availability_dedicationtime';
 $plugin->dependencies = [
@@ -32,4 +32,4 @@ $plugin->dependencies = [
     'block_dedication' => 2023112001,
 ];
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = '4.1.1';
+$plugin->release   = '4.1.2';
