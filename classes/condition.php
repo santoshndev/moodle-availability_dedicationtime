@@ -31,7 +31,6 @@ use core_availability\info;
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class condition extends \core_availability\condition {
-
     /** @var string dedication time value */
     protected $dedicationtime;
 
