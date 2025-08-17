@@ -24,7 +24,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2025051000;
+$plugin->version = 2025051001;
 $plugin->requires = 2022112800;
 $plugin->component = 'availability_dedicationtime';
 $plugin->dependencies = [
@@ -32,4 +32,4 @@ $plugin->dependencies = [
     'block_dedication' => 2023112001,
 ];
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = '4.1.2';
+$plugin->release   = '4.1.3';
